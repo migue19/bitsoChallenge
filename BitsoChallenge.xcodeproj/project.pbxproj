@@ -7,21 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1644279F0187E9D50F9CEB86 /* Pods_BitsoChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7DC27EFCF6324AE99BB385 /* Pods_BitsoChallenge.framework */; };
 		520591EF22960A9C000950E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520591EE22960A9C000950E8 /* AppDelegate.swift */; };
-		520591F122960A9C000950E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520591F022960A9C000950E8 /* ViewController.swift */; };
-		520591F422960A9C000950E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520591F222960A9C000950E8 /* Main.storyboard */; };
 		520591F622960A9E000950E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520591F522960A9E000950E8 /* Assets.xcassets */; };
 		520591F922960A9E000950E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520591F722960A9E000950E8 /* LaunchScreen.storyboard */; };
+		5205920122960DA1000950E8 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205920022960DA1000950E8 /* BooksViewController.swift */; };
+		5205920622960E4B000950E8 /* BooksInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205920522960E4B000950E8 /* BooksInterface.swift */; };
+		5205920922960E6B000950E8 /* BooksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205920822960E6B000950E8 /* BooksInteractor.swift */; };
+		5205920B22960E8D000950E8 /* BooksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205920A22960E8D000950E8 /* BooksPresenter.swift */; };
+		5205920E22960EFB000950E8 /* BooksWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205920D22960EFB000950E8 /* BooksWireFrame.swift */; };
+		52059211229704DB000950E8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52059210229704DB000950E8 /* BaseViewController.swift */; };
+		52059213229709E8000950E8 /* BooksCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52059212229709E8000950E8 /* BooksCollectionCell.swift */; };
+		5205921622970ACE000950E8 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205921522970ACE000950E8 /* UILabel.swift */; };
+		5205921822970B26000950E8 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205921722970B26000950E8 /* Enums.swift */; };
+		5205921E22970B7A000950E8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5205921A22970B79000950E8 /* Roboto-Regular.ttf */; };
+		5205921F22970B7A000950E8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5205921B22970B7A000950E8 /* Roboto-Bold.ttf */; };
+		5205922022970B7A000950E8 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5205921C22970B7A000950E8 /* Roboto-Light.ttf */; };
+		5205922122970B7A000950E8 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5205921D22970B7A000950E8 /* Roboto-Medium.ttf */; };
+		5205922322970C50000950E8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205922222970C50000950E8 /* UIColor.swift */; };
+		5205922522970D28000950E8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205922422970D28000950E8 /* UIView.swift */; };
+		52059228229712CB000950E8 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52059227229712CB000950E8 /* Connection.swift */; };
+		5205922B22971392000950E8 /* GenericResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205922A22971392000950E8 /* GenericResponse.swift */; };
+		5205922E229733FE000950E8 /* BooksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205922D229733FE000950E8 /* BooksResponse.swift */; };
+		52059231229790D8000950E8 /* BooksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52059230229790D8000950E8 /* BooksService.swift */; };
+		5205923322979A0B000950E8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205923222979A0B000950E8 /* Utils.swift */; };
+		5260ABF1229875130021076A /* ProgressViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260ABF0229875130021076A /* ProgressViewCustom.swift */; };
+		5260ABF4229879110021076A /* loader.json in Resources */ = {isa = PBXBuildFile; fileRef = 5260ABF3229879110021076A /* loader.json */; };
+		5260ABFA229886920021076A /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260ABF9229886920021076A /* Dictionary.swift */; };
+		5260ABFC22988A400021076A /* TickerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260ABFB22988A400021076A /* TickerResponse.swift */; };
+		5260AC0222989EE30021076A /* BooksDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260AC0122989EE30021076A /* BooksDetailView.swift */; };
+		5260AC0422989F2B0021076A /* BooksDetailInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260AC0322989F2B0021076A /* BooksDetailInterface.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F7DC27EFCF6324AE99BB385 /* Pods_BitsoChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BitsoChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520591EB22960A9C000950E8 /* BitsoChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitsoChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		520591EE22960A9C000950E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		520591F022960A9C000950E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		520591F322960A9C000950E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		520591F522960A9E000950E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		520591F822960A9E000950E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		520591FA22960A9E000950E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5205920022960DA1000950E8 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		5205920522960E4B000950E8 /* BooksInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksInterface.swift; sourceTree = "<group>"; };
+		5205920822960E6B000950E8 /* BooksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksInteractor.swift; sourceTree = "<group>"; };
+		5205920A22960E8D000950E8 /* BooksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksPresenter.swift; sourceTree = "<group>"; };
+		5205920D22960EFB000950E8 /* BooksWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksWireFrame.swift; sourceTree = "<group>"; };
+		52059210229704DB000950E8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		52059212229709E8000950E8 /* BooksCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCollectionCell.swift; sourceTree = "<group>"; };
+		5205921522970ACE000950E8 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		5205921722970B26000950E8 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		5205921A22970B79000950E8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		5205921B22970B7A000950E8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		5205921C22970B7A000950E8 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		5205921D22970B7A000950E8 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		5205922222970C50000950E8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5205922422970D28000950E8 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		52059227229712CB000950E8 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		5205922A22971392000950E8 /* GenericResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericResponse.swift; sourceTree = "<group>"; };
+		5205922D229733FE000950E8 /* BooksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksResponse.swift; sourceTree = "<group>"; };
+		52059230229790D8000950E8 /* BooksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksService.swift; sourceTree = "<group>"; };
+		5205923222979A0B000950E8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5260ABF0229875130021076A /* ProgressViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCustom.swift; sourceTree = "<group>"; };
+		5260ABF3229879110021076A /* loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loader.json; sourceTree = "<group>"; };
+		5260ABF9229886920021076A /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		5260ABFB22988A400021076A /* TickerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerResponse.swift; sourceTree = "<group>"; };
+		5260AC0122989EE30021076A /* BooksDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDetailView.swift; sourceTree = "<group>"; };
+		5260AC0322989F2B0021076A /* BooksDetailInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDetailInterface.swift; sourceTree = "<group>"; };
+		943A67682CDB2A41911378E6 /* Pods-BitsoChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		A1881A253546BF18D5BEDEBF /* Pods-BitsoChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitsoChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1644279F0187E9D50F9CEB86 /* Pods_BitsoChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +93,8 @@
 			children = (
 				520591ED22960A9C000950E8 /* BitsoChallenge */,
 				520591EC22960A9C000950E8 /* Products */,
+				FC169AC008F79876B2F616A7 /* Pods */,
+				D27242BE108DF1B95830615D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,175 @@
 		520591ED22960A9C000950E8 /* BitsoChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				5260AC0022989E530021076A /* Sections */,
+				5260ABF22298788E0021076A /* Animation */,
+				5205922F229790BC000950E8 /* Services */,
 				520591EE22960A9C000950E8 /* AppDelegate.swift */,
-				520591F022960A9C000950E8 /* ViewController.swift */,
-				520591F222960A9C000950E8 /* Main.storyboard */,
+				5205922622971297000950E8 /* Connection */,
+				5205921922970B53000950E8 /* Fonts */,
+				5205921422970AAA000950E8 /* Extension */,
+				5205920F229704C2000950E8 /* Commons */,
 				520591F522960A9E000950E8 /* Assets.xcassets */,
 				520591F722960A9E000950E8 /* LaunchScreen.storyboard */,
 				520591FA22960A9E000950E8 /* Info.plist */,
 			);
 			path = BitsoChallenge;
+			sourceTree = "<group>";
+		};
+		5205920222960DF3000950E8 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				5205922C229733E7000950E8 /* Entity */,
+				5205920C22960EAE000950E8 /* Router */,
+				5205920722960E55000950E8 /* Presenter */,
+				5205920422960E1D000950E8 /* Interactor */,
+				5205920322960E0D000950E8 /* View */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		5205920322960E0D000950E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5205920022960DA1000950E8 /* BooksViewController.swift */,
+				52059212229709E8000950E8 /* BooksCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5205920422960E1D000950E8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5205920522960E4B000950E8 /* BooksInterface.swift */,
+				5205920822960E6B000950E8 /* BooksInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5205920722960E55000950E8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5205920A22960E8D000950E8 /* BooksPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5205920C22960EAE000950E8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5205920D22960EFB000950E8 /* BooksWireFrame.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5205920F229704C2000950E8 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				52059210229704DB000950E8 /* BaseViewController.swift */,
+				5205921722970B26000950E8 /* Enums.swift */,
+				5205923222979A0B000950E8 /* Utils.swift */,
+				5260ABF0229875130021076A /* ProgressViewCustom.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		5205921422970AAA000950E8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5205921522970ACE000950E8 /* UILabel.swift */,
+				5205922222970C50000950E8 /* UIColor.swift */,
+				5205922422970D28000950E8 /* UIView.swift */,
+				5260ABF9229886920021076A /* Dictionary.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5205921922970B53000950E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5205921B22970B7A000950E8 /* Roboto-Bold.ttf */,
+				5205921C22970B7A000950E8 /* Roboto-Light.ttf */,
+				5205921D22970B7A000950E8 /* Roboto-Medium.ttf */,
+				5205921A22970B79000950E8 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5205922622971297000950E8 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				5205922922971376000950E8 /* Response */,
+				52059227229712CB000950E8 /* Connection.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		5205922922971376000950E8 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				5205922A22971392000950E8 /* GenericResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		5205922C229733E7000950E8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5205922D229733FE000950E8 /* BooksResponse.swift */,
+				5260ABFB22988A400021076A /* TickerResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5205922F229790BC000950E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52059230229790D8000950E8 /* BooksService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5260ABF22298788E0021076A /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5260ABF3229879110021076A /* loader.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		5260ABFF22989E420021076A /* BooksDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5260AC0122989EE30021076A /* BooksDetailView.swift */,
+				5260AC0322989F2B0021076A /* BooksDetailInterface.swift */,
+			);
+			path = BooksDetail;
+			sourceTree = "<group>";
+		};
+		5260AC0022989E530021076A /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				5205920222960DF3000950E8 /* Books */,
+				5260ABFF22989E420021076A /* BooksDetail */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		D27242BE108DF1B95830615D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7DC27EFCF6324AE99BB385 /* Pods_BitsoChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC169AC008F79876B2F616A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1881A253546BF18D5BEDEBF /* Pods-BitsoChallenge.debug.xcconfig */,
+				943A67682CDB2A41911378E6 /* Pods-BitsoChallenge.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 520591FD22960A9E000950E8 /* Build configuration list for PBXNativeTarget "BitsoChallenge" */;
 			buildPhases = (
+				73356A19981C31FBB32DCB6C /* [CP] Check Pods Manifest.lock */,
 				520591E722960A9C000950E8 /* Sources */,
 				520591E822960A9C000950E8 /* Frameworks */,
 				520591E922960A9C000950E8 /* Resources */,
+				406B396863FF10889C5ABDE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +340,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5205921E22970B7A000950E8 /* Roboto-Regular.ttf in Resources */,
 				520591F922960A9E000950E8 /* LaunchScreen.storyboard in Resources */,
+				5260ABF4229879110021076A /* loader.json in Resources */,
+				5205922122970B7A000950E8 /* Roboto-Medium.ttf in Resources */,
+				5205922022970B7A000950E8 /* Roboto-Light.ttf in Resources */,
+				5205921F22970B7A000950E8 /* Roboto-Bold.ttf in Resources */,
 				520591F622960A9E000950E8 /* Assets.xcassets in Resources */,
-				520591F422960A9C000950E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		406B396863FF10889C5ABDE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BitsoChallenge/Pods-BitsoChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73356A19981C31FBB32DCB6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BitsoChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		520591E722960A9C000950E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520591F122960A9C000950E8 /* ViewController.swift in Sources */,
+				52059231229790D8000950E8 /* BooksService.swift in Sources */,
+				5205922B22971392000950E8 /* GenericResponse.swift in Sources */,
+				5260ABFA229886920021076A /* Dictionary.swift in Sources */,
+				5260AC0422989F2B0021076A /* BooksDetailInterface.swift in Sources */,
+				5205922522970D28000950E8 /* UIView.swift in Sources */,
+				5260ABFC22988A400021076A /* TickerResponse.swift in Sources */,
+				5205921622970ACE000950E8 /* UILabel.swift in Sources */,
+				5205922E229733FE000950E8 /* BooksResponse.swift in Sources */,
+				5205922322970C50000950E8 /* UIColor.swift in Sources */,
+				5205920922960E6B000950E8 /* BooksInteractor.swift in Sources */,
+				5205920E22960EFB000950E8 /* BooksWireFrame.swift in Sources */,
 				520591EF22960A9C000950E8 /* AppDelegate.swift in Sources */,
+				5260AC0222989EE30021076A /* BooksDetailView.swift in Sources */,
+				5205923322979A0B000950E8 /* Utils.swift in Sources */,
+				52059213229709E8000950E8 /* BooksCollectionCell.swift in Sources */,
+				5205920622960E4B000950E8 /* BooksInterface.swift in Sources */,
+				5260ABF1229875130021076A /* ProgressViewCustom.swift in Sources */,
+				52059211229704DB000950E8 /* BaseViewController.swift in Sources */,
+				5205920122960DA1000950E8 /* BooksViewController.swift in Sources */,
+				5205920B22960E8D000950E8 /* BooksPresenter.swift in Sources */,
+				5205921822970B26000950E8 /* Enums.swift in Sources */,
+				52059228229712CB000950E8 /* Connection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		520591F222960A9C000950E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				520591F322960A9C000950E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		520591F722960A9E000950E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +561,7 @@
 		};
 		520591FE22960A9E000950E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1881A253546BF18D5BEDEBF /* Pods-BitsoChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,13 +573,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.com.nut.BitsoChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		520591FF22960A9E000950E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943A67682CDB2A41911378E6 /* Pods-BitsoChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +592,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.com.nut.BitsoChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
